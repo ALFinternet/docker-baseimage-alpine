@@ -20,8 +20,8 @@ env:
   REGISTRY: ghcr.io
   # github.repository as <account>/<repo>
   #IMAGE_NAME: ${{ github.repository }}
-  MYIMAGENAME=${{ github.repository }}
-  IMAGE_NAME: ${MYIMAGENAME/docker-/""}
+  IMAGE_NAME: baseimage-alpine
+
 
 
 jobs:
