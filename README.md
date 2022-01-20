@@ -12,7 +12,7 @@ cd docker-baseimage-alpine
 docker build \
   --no-cache \
   --pull \
-  -t ghcr.io/alfinternet/baseimage-alpine:3.15 .
+  -t ghcr.io/alfinternet/baseimage-alpine:3.15 -t ghcr.io/alfinternet/baseimage-alpine:latest .
 
 docker tag <IMAGE_ID> ghcr.io/alfinternet/baseimage-alpine:latest
 ```
