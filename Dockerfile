@@ -40,7 +40,9 @@ ARG BUILD_DATE
 ARG VERSION
 #LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 #LABEL maintainer="TheLamer"
-LABEL maintainer="TheLamer -> ALFinternet"
+LABEL org.opencontainers.image.source=https://github.com/alfinternet/docker-baseimage-alpine
+LABEL org.opencontainers.image.authors="ALFinternet@gmail.com via TheLamer"
+LABEL maintainer="ALFinternet@gmail.com via TheLamer"
 
 # set version for s6 overlay
 ARG OVERLAY_VERSION="v2.2.0.3"
